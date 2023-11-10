@@ -1,0 +1,56 @@
+body {
+  font-family: Garamond;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  border-bottom: 4px solid #2979ff;
+}
+
+.container {
+  padding: 20px 20px;
+}
+
+.row {
+  width: 350px;
+  background: #DDDDDD;
+  /*meletakkan form ke tengah*/
+  margin: 30px auto;
+  padding: 10px 50px;
+  border-radius: 30px;
+}
+
+form {
+  padding: 2px;
+  margin: auto;
+  margin-top: 100px;
+  width: 700px;
+}
+
+input[type=text],
+input[type=password] {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #2979ff;
+  font-size: 20px;
+
+}
+
+button {
+  background-color: #2979ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
